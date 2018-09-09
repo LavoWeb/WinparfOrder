@@ -1,14 +1,11 @@
-# Connecteur Winparf stock
+# Connecteur Winparf commandes
 
 Le connecteur n'est pas encore disponible publiquement mais il est déjà en production
 pour plusieurs clients.
 
-Il permet de faire de l'import de stock via les exports natifs de Winparf. Le seul 
-coût côté ERP et la mise en place de la tâche cron d'export.
+Il permet de faire de l'import des commandes directement dans Winparf depuis Magento 2.
 
-Il gére les flux avec commande asynchrone (type chéque/virement), le stock réel est
-calculé à chaque import.
-
-L'import se fait en requête SQL, pour mettre à jour 10 000 produits, il faut 7min.
+Le module génère des tickets de caisses pour les commandes de façon automatique,
+il n'y a plus besoin de faire des resaisies de données.
 
 Pour en savoir plus : [contactez-nous](https://lumao.eu#section-contact)
